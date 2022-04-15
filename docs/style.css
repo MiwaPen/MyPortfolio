@@ -3,7 +3,7 @@ body{
     color: white;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: black;
     display: block;
 }
 
@@ -74,7 +74,8 @@ header a:hover{
     height: 600px;
 }
 .about h2{
-    padding-top: 50px;
+    margin: 0;
+    padding-top: 30px;
     text-align: center;
     font-size: 52px;
 }
@@ -118,7 +119,6 @@ justify-content:center;
     height: 175px;
     border-radius: 50%; 
 }
-
 
 footer{
     margin: 0 auto;
@@ -209,5 +209,15 @@ footer{
         justify-content: left;
         width: 500px;
         flex-wrap: wrap;
-    }
+    }   
+
+    header,.main,.about,footer{
+        margin: 0 auto;
+        width: 850px;
+        padding: 0px 0px 30px 0px;
+      }
+    .main{
+        padding: 0px 0px 100px 0px;
+    }  
 }
+
